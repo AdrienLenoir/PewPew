@@ -1,0 +1,92 @@
+/* RESET CSS
+ * --------------------------------------- */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+form, fieldset, input, textarea, p, blockquote, th, td, span {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+canvas {
+  background-color: #212121;
+}
+
+.modal {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.modal .modal-wrapper {
+  background-color: #c6c6c6;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  color: #597d17;
+  min-height: 35vh;
+  min-width: 50vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal .modal-wrapper h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.modal .modal-wrapper p {
+  color: #212121;
+}
+.modal .modal-wrapper .start-button {
+  float: right;
+  border: none;
+  background-color: #597d17;
+  text-align: center;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 30px;
+}
+.modal .modal-wrapper .start-button:hover {
+  background-color: #4a6713;
+}
+
+/*# sourceMappingURL=style.css.map */

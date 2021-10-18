@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<canvas id="pewpewgame">
+    Votre navigateur ne supporte pas Canvas :(
+</canvas>
+<div class="modal" id="winModal">
+    <div class="modal-wrapper">
+        <h3>VICTOIRE !</h3>
+        <p>Vous avez fini en <span id="finishTime"></span></p>
+
+        <button class="start-button">RE JOUER</button>
+    </div>
+</div>
+<div class="modal" id="startModal">
+    <div class="modal-wrapper">
+        <h3>Hey! Bienvenue sur le jeu PewPew</h3>
+        <p>Le but du jeu est de toucher 10 cibles le plus rapidement que possible.</p>
+
+        <button class="start-button">JOUER</button>
+    </div>
+</div>
+</body>
+<script src="assets/js/main.js"></script>
+</html>
